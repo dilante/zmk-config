@@ -95,7 +95,7 @@
                                             &mo 2       &kp RSHIFT  &kp LCTRL    &kp SPACE    &kp RET     &moto 1 1 
             >;
 
-            //trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tmv>;
         };
 
 
@@ -117,7 +117,7 @@
                 &kp SQT     &kp DQT     &kp COLON   &mo 3         &kp TAB         &kp C_BRI_DN    &mo 3   &kp F     &kp ESC     &kp C_VOL_DN
                                         &mo 2   &kp RSHIFT  &kp LCTRL    &kp SPACE   &mt RGUI RET    &moto 1 1    
             >;
-            //trackball-bindings = <&tsl_fine>;
+            trackball-bindings = <&tmv>;
         };
 
 
@@ -140,7 +140,7 @@
                 &kp PIPE    &kp PLUS    &kp MINUS   &kp STAR    &kp FSLH    &kp BSLH    &kp EQUAL   &kp CARET   &kp UNDER   &kp BSPC 
                                         &mo 2   &kp RSHIFT  &kp LCTRL    &kp SPACE    &kp RET    &moto 1 1  
             >;
-            //trackball-bindings = <&tmv_fine>;
+            trackball-bindings = <&tmv>;
         };
 
         Reset {
@@ -183,7 +183,7 @@
                 &trans  &trans     &trans  &trans     &trans   &trans  &trans  &trans  &trans  &trans
                            &trans &mkp LCLK  &mkp RCLK  &trans  &trans  &trans 
             >;
-             //trackball-bindings = <&tmv_fine>;
+             trackball-bindings = <&tmv>;
         };
     };
 };
